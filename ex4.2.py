@@ -1,6 +1,8 @@
 #https://books.trinket.io/pfe/04-functions.html
 '''Exercise 6: Rewrite your pay computation with time-and-a-half for overtime and create a function called computepay 
 which takes two parameters (hours and rate).'''
+hours = float(input("enter hours:"))
+rate = float(input("enter rate:"))
 
 def computepay(hours,rate):
 	#hours = float(input("enter hours:"))
@@ -12,4 +14,4 @@ def computepay(hours,rate):
 	return pay
 	
 
-print(computepay(45,10))
+print(computepay(hours,rate))
